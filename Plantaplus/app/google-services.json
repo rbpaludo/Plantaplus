@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "961265800201",
+    "firebase_url": "https://fir-plantaplus.firebaseio.com",
+    "project_id": "firebase-plantaplus",
+    "storage_bucket": "firebase-plantaplus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961265800201:android:ccbdb986334ff349",
+        "android_client_info": {
+          "package_name": "br.ufg.inf.plantaplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961265800201-njouu0kegm43dfd6inmi6ou69qfnqofq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.ufg.inf.plantaplus",
+            "certificate_hash": "28452309b7b64019301c4adc4939d07e0d4e79d9"
+          }
+        },
+        {
+          "client_id": "961265800201-o7k4lreu9j4si3uh8l0jq3f7118fm0co.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANk_0pjD0zPd49DtdEQ1Qv8owjRtQ0JIE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961265800201-o7k4lreu9j4si3uh8l0jq3f7118fm0co.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp">
+    <ImageView
+        android:id="@+id/plantaImagemPerfil"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/rosa_deserto"
+        android:layout_marginRight="16dp"/>
+    <TextView
+        android:id="@+id/plantaNomePopular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rosa do deserto"
+        android:layout_toRightOf="@id/plantaImagemPerfil"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/plantaNomeCientifico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="altasis Rosasis"
+        android:layout_toRightOf="@id/plantaImagemPerfil"
+        android:layout_below="@id/plantaNomePopular"/>
+    <TextView
+        android:id="@+id/plantaIdade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 anos, 7 meses, 24 dias"
+        android:layout_toRightOf="@id/plantaImagemPerfil"
+        android:layout_below="@id/plantaNomeCientifico"/>
+</RelativeLayout>
